@@ -1,0 +1,25 @@
+package java0628;
+
+public class ee2222 {
+
+	public static void main(String[] args) {
+		
+		for(int c =2;c<=9;c++) {
+			System.out.print(c+"단"+"   ");
+		}
+		System.out.println();
+		for(int a = 1; a <=9; a++) {
+			System.out.println();
+			
+			
+			
+			for( int b = 2; b<=9; b++) {
+			
+			
+				System.out.print(b + "*" + a + "=" + a*b+" ");
+			
+			}
+			}
+	}
+
+}

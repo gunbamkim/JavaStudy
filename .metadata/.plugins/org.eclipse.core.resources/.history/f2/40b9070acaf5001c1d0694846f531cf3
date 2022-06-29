@@ -1,0 +1,18 @@
+package java0627;
+
+import java.util.Scanner;
+
+public class ex05다이어트관리프로그램 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int now = 0;
+		now = sc.nextInt();
+		System.out.println("현재몸무게 : ");
+		
+		System.out.println("목표몸무게:");
+		
+				
+	}
+
+}

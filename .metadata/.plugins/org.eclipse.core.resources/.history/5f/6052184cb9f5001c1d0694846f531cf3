@@ -1,0 +1,51 @@
+package java0627;
+
+import java.util.Scanner;
+
+public class ex01자판기 {
+
+	public static void main(String[] args) {
+		System.out.println("----자판기----");
+		System.out.print("금액을 입력하세요.");
+		
+		Scanner sc = new Scanner(System.in);
+		int inputmoney = sc.nextInt();
+		
+		System.out.print("메뉴를 고르세요");
+		System.out.println("1. 콜라(800원) 2. 생수(500원) 3. 비타민워터(1500원)");
+		int choice = sc.nextInt();
+		
+		//sol.1
+		if(choice==1) {
+			int change = inputmoney-800
+					System.out.println("잔돈 : " + change);
+		}else if(choice==2) {
+			
+		}else if(choice==3) {
+			
+		}
+		
+		
+		
+		
+		
+		
+		/*sol.2
+		switch(choice) {
+		case 1 :	
+		
+	
+			if(inputmoney>800) {
+			
+			System.out.println("잔돈 : " + (inputmoney-800));
+			System.out.println("천원 : " + ((inputmoney-800)/1000) +"개, 오백원 : " + (((inputmoney-800)%1000)/500) + "개, 백원 : "+(((inputmoney-800)%500/100)));
+				}else if(inputmoney<800) {
+					
+				}
+			}
+			*/
+		
+		
+	}
+
+}

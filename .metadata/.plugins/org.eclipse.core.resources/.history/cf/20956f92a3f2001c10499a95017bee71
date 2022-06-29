@@ -1,0 +1,30 @@
+package java0623;
+
+import java.util.Scanner;
+
+public class ex04삼항연산자 {
+
+	public static void main(String[] args) {
+		// 변수에 들어있는 값이 짝수인지 홀수인지 판단하는 프로그램
+		int number = 31;
+		
+		System.out.println(number%2==0?"짝수":"홀수");
+
+		
+		
+		
+		//예제2.
+		
+		System.out.print("노동시간을 입력하세요 : ");
+		int time = sc.nextInt();
+		
+		int C= time>8?(time*5000)+((time-8)*2500):time*5000;
+				
+		System.out.println("총 임금은" + C +"입니다");
+		
+		
+		
+		
+	}
+
+}

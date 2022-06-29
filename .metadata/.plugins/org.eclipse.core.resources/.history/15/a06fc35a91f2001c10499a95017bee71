@@ -1,0 +1,17 @@
+package java0623;
+
+import java.util.Scanner;
+
+public class ex02예제 {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Java 점수 입력 : ");
+		Scanner sc = new Scanner(System.in);
+		int JavaScore = sc.nextint();
+		
+		
+		
+			
+	}
+}

@@ -1,0 +1,14 @@
+package java0628;
+
+import java.util.Scanner;
+
+public class ex06삼육구 {
+
+	public static void main(String[] args) {
+		for (int num = 3; num <= 50; num+=3) {
+			System.out.println(num);}
+		}
+
+	}
+
+

@@ -1,0 +1,33 @@
+package java0624;
+
+import java.util.Scanner;
+
+public class ex07 {
+
+	public static void main(String[] args) {
+		// 
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("월 입력 : ");
+		String str = sc.next();
+		
+		switch (str) {
+		
+		int a = 1, 2, 3
+		case 1:
+			System.out.println(1월근 겨울입니다!);
+			
+			break;
+
+		default:
+			break;
+		}
+		
+		
+		
+		
+		
+		
+	}
+
+}

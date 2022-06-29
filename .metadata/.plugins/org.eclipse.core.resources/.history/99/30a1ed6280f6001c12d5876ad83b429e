@@ -1,0 +1,19 @@
+package java0628;
+
+import java.util.Scanner;
+
+public class ex04 {
+
+	public static void main(String[] args) {
+		// 
+		Scanner sc = new Scanner(System.in);
+		int input =0;
+		
+		for (input =0 ; input<=100; i++ ) {
+			
+			System.out.println(i);
+		}
+
+	}
+
+}

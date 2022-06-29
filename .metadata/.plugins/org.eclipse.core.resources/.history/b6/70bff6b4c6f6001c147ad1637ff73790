@@ -1,0 +1,17 @@
+package java0628;
+
+public class ee2222 {
+
+	public static void main(String[] args) {
+		int j;
+		for(int i = 2; i <=9; i++) {
+			System.out.println("==" + i + "단");
+			for(int j = 2; j<=9; j++) {
+				int a = 1;
+			
+				System.out.print(j + "*" + a + "=" + i*j+" ");
+			}
+			}
+	}
+
+}

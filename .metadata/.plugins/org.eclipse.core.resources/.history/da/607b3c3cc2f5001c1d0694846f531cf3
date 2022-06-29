@@ -1,0 +1,21 @@
+package java0627;
+
+import java.util.Scanner;
+
+public class ex04누적합예제 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int num = sc.nextInt();
+		System.out.println("숫자를 입력하세요 : ");
+				
+
+			while(num<=100) {
+			System.out.println("합계 :" + num);
+			num;
+			
+		}
+		
+	}
+
+}

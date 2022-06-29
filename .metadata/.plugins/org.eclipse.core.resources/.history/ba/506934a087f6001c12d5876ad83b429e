@@ -1,0 +1,28 @@
+package java0628;
+
+import java.util.Scanner;
+
+public class ex03숫자감소 {
+
+	public static void main(String[] args) {
+		// 50부터 20까지 감소하는 숫자를 출력해보자.
+				Scanner sc = new Scanner(System.in);
+				
+				int num1 = sc.nextInt();
+				int num2 = sc.nextInt();
+				
+				
+				if(num1>num2) {
+					for(int i =num2; i<=num1;i++);
+					System.out.println(num1);
+				}else {
+					for(int i =num1; i<=num2;i++);
+					System.out.println();
+				}
+				
+	}
+}
+				
+				
+				
+				

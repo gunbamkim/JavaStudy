@@ -1,0 +1,13 @@
+package java0628;
+
+public class ex082단만들기 {
+
+	public static void main(String[] args) {
+		
+
+	
+		for(int i=1;i<=9;i++) {
+			System.out.print("2*"+i+"="+(i*2)+" ");
+	}
+	}
+}

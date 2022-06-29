@@ -1,0 +1,28 @@
+package java0623;
+
+import java.util.Scanner;
+
+public class ex02예제 {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Java 점수 입력 : ");
+		Scanner sc = new Scanner(System.in);
+		int JavaScore = sc.nextInt();
+		
+		System.out.println("Web 점수 입력 : ");
+		int WebScore = sc.nextInt();
+		
+		System.out.println("Android 점수 입력 : ");
+		int AndScore = sc.nextInt();
+		
+		System.out.println((int)"합계 : " + JavaScore + WebScore + AndScore);
+		int Sum = sc.nextInt();
+		
+		
+		
+		
+		
+			
+	}
+}

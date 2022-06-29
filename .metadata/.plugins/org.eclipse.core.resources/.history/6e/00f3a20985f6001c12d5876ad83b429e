@@ -1,0 +1,40 @@
+package java0628;
+
+import java.util.Scanner;
+
+public class ee2 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int num1 = sc.nextInt();
+		int num2 = sc.nextInt();
+		
+		int L= 0;
+		int S= 0;
+		
+		if(num1>num2) {
+			for(int i =num2; i<=num1;i++)
+		}else {
+			for(int i = )
+		}
+		
+		
+		
+			
+			
+			
+			
+			L=A
+					S=B
+				} else {
+					L=B
+					S=A
+				}
+				
+				for()
+		
+
+	}
+
+}

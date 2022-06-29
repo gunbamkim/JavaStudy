@@ -1,0 +1,20 @@
+package java0628;
+
+public class ee2222 {
+
+	public static void main(String[] args) {
+		
+		
+		for(int a = 1; a <=9; a++) {
+			System.out.println(a + "단");
+			
+			
+			for( int j = 2; j<=9; j++) {
+			
+			
+				System.out.print(j + "*" + a + "=" + a*j+" ");
+			}
+			}
+	}
+
+}

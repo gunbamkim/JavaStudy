@@ -1,0 +1,23 @@
+package java0628;
+
+public class ee11 {
+
+	public static void main(String[] args) {
+		
+		int a=1;
+			
+		for(int j=2;j<=9;j++) {
+			System.out.println(j+"단 : ");
+			int b =1;
+		
+			for(int i = 2; i<=9;i+=2) {
+				
+				int z = a + b;
+	
+				System.out.print(i+"*"+a +"="+i+" ");
+				}
+		}
+
+	}
+
+}

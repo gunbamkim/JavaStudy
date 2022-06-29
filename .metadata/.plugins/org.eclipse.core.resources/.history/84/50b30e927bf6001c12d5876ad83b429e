@@ -1,0 +1,15 @@
+package java0628;
+
+public class ex24 {
+
+	public static void main(String[] args) {
+
+			for(int num =25;70>=num; num++) {
+				if(num%2!=0){
+					System.out.println(num);
+				}
+			}
+
+	}
+
+}
