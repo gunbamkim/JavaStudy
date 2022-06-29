@@ -7,7 +7,7 @@ public class ex07구구단 {
 		int a =2;
 		for(int i=1;i<=9;i++) {
 			int b= a * i;
-			System.out.println(a + "*"+i+"="+b);
+			System.out.print(a + "*"+i+"="+b+" ");
 		}
 
 	}
